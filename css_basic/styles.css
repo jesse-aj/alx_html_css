@@ -1,24 +1,36 @@
+/* Make body a flex container with vertical stacking */
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; 
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make body full height */
+  margin: 0;
 }
 
+/* Make main a flex container with horizontal stacking */
 main {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Let it grow to fill space */
 }
 
+/* Article takes 2/3 of the space */
 article {
-    flex: 1;
-    overflow-y: auto;
-    padding: 1rem;
+  flex: 2;
+  overflow-y: auto;
+  padding: 1rem;
 }
 
-header, footer {
-    padding: 1rem;
-    background-color: #f2f2f2;
-    text-align: center;
+/* Aside takes 1/3 of the space */
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+/* Optional: basic styles for header and footer */
+header,
+footer {
+  padding: 1rem;
+  background-color: #f2f2f2;
+  text-align: center;
 }

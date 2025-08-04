@@ -130,60 +130,53 @@ nav ul li a {
   font-style: italic;
 }
 
-
-/* Section styling */
+/* Quote Section */
 .quote {
-  background-color: #C271FF;
-  color: white;
-  padding: 80px 20px;
+    background-color: #C271FF;
+    color: white;
+    padding: 50px 20px;
 }
 
-/* Container centers content and sets width */
 .quote-container {
-  max-width: 1000px;
-  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 40px;
 }
 
-/* Layout for image + text side by side */
-.author-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;  /* centers the whole block */
-  gap: 30px;
-  width: 100%;
+.qoute-text {
+    flex: 1;
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
 }
 
-/* Image style */
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .author-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
-/* Text beside the image */
-.quote-content {
-  text-align: left;
-  max-width: 600px;
+.author-details {
+    text-align: left;
+    margin-top: 10px;
 }
 
-/* Quote style */
-.quote-text {
-  font-size: 20px;
-  font-style: italic;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-/* Name and title */
 .author-name {
-  font-weight: bold;
-  font-size: 18px;
-  margin: 0;
+    font-weight: bold;
+    margin: 0;
 }
 
 .author-title {
-  font-size: 14px;
-  margin: 0;
-  opacity: 0.8;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
 }

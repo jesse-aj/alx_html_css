@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +8,12 @@
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: white;
-  background-color: #000; /* fallback color */
+  background-color: #000;
 }
 
-/* HERO CONTAINER: background holds header + section */
+
 .hero-container {
-  background-image: url('images/Object.png'); /* make sure path is correct */
+  background-image: url('images/Object.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
   color: white;
 }
 
-/* HEADER STYLES */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,7 @@ nav {
 }
 
 nav img {
-  height: 35px; /* Adjust to match logo size in Figma */
+  height: 35px; 
 }
 
 nav ul {
@@ -53,14 +53,14 @@ nav ul li a {
   font-size: 14px;
 }
 
-/* FIRST SECTION (HERO TEXT & PROFILES) */
+
 .hero-container main section {
   display: flex;
   flex-direction: column;
   gap: 80px;
 }
 
-/* Top part: Main hero message */
+
 .hero-container main section > div:first-child {
   text-align: center;
 }
@@ -91,7 +91,6 @@ nav ul li a {
   cursor: pointer;
 }
 
-/* Bottom part: Learn from the pros */
 .hero-container h2 {
   text-align: center;
   font-size: 32px;
@@ -99,7 +98,7 @@ nav ul li a {
   margin-bottom: 40px;
 }
 
-/* The profiles row */
+
 .hero-container main section > div:last-child > div {
   display: flex;
   justify-content: center;
@@ -130,7 +129,8 @@ nav ul li a {
   font-style: italic;
 }
 
-/* Quote Section */
+
+
 .quote {
     background-color: #C271FF;
     color: white;
@@ -237,12 +237,12 @@ nav ul li a {
   border-radius: 5px;
 }
 
-/* This styles the play button */
+
 .play-btn {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 40px;           /* or whatever size your button is */
+  width: 40px;         
   transform: translate(-50%, -50%);
 }
  .video-user {
@@ -337,9 +337,9 @@ nav ul li a {
   position: relative;
 }
 
-/* Position the button below the 2nd and 3rd cards */
+
 .membership-btn-wrapper {
-  grid-column: 2 / span 2;   /* spans across column 2 and 3 */
+  grid-column: 2 / span 2;   
   display: flex;
   justify-content: center;
 }
@@ -357,27 +357,53 @@ nav ul li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .register-btn:hover {
   background-color: #a757d6;
 }
+
+
+ .faq {
+  background-color: white;
+  padding: 80px 20px;
+  text-align: center;
+ }
+
+
+ .faq h2 {
+  font-size: 32px;
+  color: #071629;
+  font-weight: bold;
+  margin-bottom: 60px;
+ }
+
+ .faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+
+ }
+
+
+ .faq-item p {
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 1.5;
+ }
+
+ .faq-item h3 {
+  font-size: 16px;
+  color: #071629;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+ }
+
+ .faq-item p {
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 1.6;
+ }
+

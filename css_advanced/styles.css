@@ -1,0 +1,131 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: white;
+  background-color: #000; /* fallback color */
+}
+
+/* HERO CONTAINER: background holds header + section */
+.hero-container {
+  background-image: url('object.png'); /* make sure path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 80px;
+  color: white;
+}
+
+/* HEADER STYLES */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+nav img {
+  height: 35px; /* Adjust to match logo size in Figma */
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* FIRST SECTION (HERO TEXT & PROFILES) */
+.hero-container main section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Top part: Main hero message */
+.hero-container main section > div:first-child {
+  text-align: center;
+}
+
+.hero-container h1 {
+  font-size: 120px;
+  font-weight: bold;
+  letter-spacing: -4px;
+  margin-bottom: 20px;
+}
+
+.hero-container span {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.hero-container button {
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #C271FF;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Bottom part: Learn from the pros */
+.hero-container h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+/* The profiles row */
+.hero-container main section > div:last-child > div {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.hero-container main section > div:last-child > div > div {
+  max-width: 150px;
+}
+
+.hero-container main section img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.hero-container h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero-container p {
+  font-size: 14px;
+  font-style: italic;
+}

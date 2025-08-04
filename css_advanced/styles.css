@@ -13,7 +13,7 @@ body {
 
 /* HERO CONTAINER: background holds header + section */
 .hero-container {
-  background-image: url('object.png'); /* make sure path is correct */
+  background-image: url('images/Object.png'); /* make sure path is correct */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,10 +128,4 @@ nav ul li a {
 .hero-container p {
   font-size: 14px;
   font-style: italic;
-}
-
-.learn-class  {
-    color: #C271FF;
-  font-weight: bold;
-  font-size: 36px;
 }

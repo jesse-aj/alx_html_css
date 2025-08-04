@@ -271,3 +271,113 @@ nav ul li a {
   color: #999;
 
 }
+
+.membership {
+  background-color: rgb(0, 0, 22);
+  padding: 80px 20px;
+  text-align:center;
+}
+
+
+.membership h2{
+  font-size: 32px;
+  margin-bottom: 60px;
+
+}
+
+
+
+.membership-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+ .membership-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+ }
+
+
+
+ .membership-card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+ }
+
+ .membership-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+ }
+
+
+ .membership-card p {
+  font-size: 14px;
+  color: #c5c3c3;
+  line-height: 1.4;
+  max-width: 220px; 
+ }
+
+
+
+ .membership-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Position the button below the 2nd and 3rd cards */
+.membership-btn-wrapper {
+  grid-column: 2 / span 2;   /* spans across column 2 and 3 */
+  display: flex;
+  justify-content: center;
+}
+
+.register-btn {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.register-btn:hover {
+  background-color: #a757d6;
+}

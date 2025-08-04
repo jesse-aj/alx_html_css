@@ -129,3 +129,61 @@ nav ul li a {
   font-size: 14px;
   font-style: italic;
 }
+
+
+/* Section styling */
+.quote {
+  background-color: #C271FF;
+  color: white;
+  padding: 80px 20px;
+}
+
+/* Container centers content and sets width */
+.quote-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Layout for image + text side by side */
+.author-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* centers the whole block */
+  gap: 30px;
+  width: 100%;
+}
+
+/* Image style */
+.author-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Text beside the image */
+.quote-content {
+  text-align: left;
+  max-width: 600px;
+}
+
+/* Quote style */
+.quote-text {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Name and title */
+.author-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.author-title {
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.8;
+}
